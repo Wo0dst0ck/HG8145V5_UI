@@ -1,0 +1,1 @@
+function GetLanguage(Name) { return Languages[Name]; } function WriteInfo(Name) { document.write(GetLanguage(Name)); } function AlertMsg(Name) { AlertEx(GetLanguage(Name)); } document.getElementById("Page").setAttribute("dir", "ltl");
