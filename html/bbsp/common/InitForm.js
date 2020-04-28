@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0075)https://192.168.100.1/resource/common/InitForm.asp?201906201656557553184798 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>var CuOSGIMode = '0';
+var CuOSGIMode = '0';
 
 if(typeof(HTMLElement)!="undefined" &amp;&amp; !window.opera &amp;&amp; !( navigator.appName == 'Microsoft Internet Explorer'))
 {
@@ -2082,4 +2080,3 @@ try {
 //console.log(msg);
 }catch(e){};
 }
-</span></span></span></span></span></div></span></div></table";></a.length;i++)></body></html>

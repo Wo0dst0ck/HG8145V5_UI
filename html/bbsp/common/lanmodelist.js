@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0060)https://192.168.100.1/html/bbsp/common/lanmodelist.asp?14013 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>function stLayer3Enable(domain, lay3enable)
+function stLayer3Enable(domain, lay3enable)
 {
 this.domain = domain;
 this.L3Enable = lay3enable;
@@ -19,4 +17,4 @@ function IsL3Mode(LanId)
     return "null";
     }
     return LanModeList[parseInt(LanId)-1].L3Enable;
-}</body></html>
+}

@@ -1,144 +1,137 @@
-
-<!-- saved from url=(0057)https://192.168.100.1/html/amp/common/wlan_list.asp?14013 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>function stTopoSsid(Domain, SsidNum)
-{   
+function stTopoSsid(Domain, SsidNum){   
     this.Domain = Domain;
     this.SsidNum = SsidNum;
 }
 
-function stReguDomain(CountryCode, RegCode)
-{
-this.CountryCode = CountryCode;
-this.RegCode = RegCode;
+function stReguDomain(CountryCode, RegCode){
+    this.CountryCode = CountryCode;
+    this.RegCode = RegCode;
 }
 
 var TotalRegDomain = new Array(
-new stReguDomain("AL", "CE"),
-new stReguDomain("DZ", "CE"),
-new stReguDomain("AR", "CE"),
-new stReguDomain("AU", "CE"),
-new stReguDomain("AT", "CE"),
-new stReguDomain("AZ", "CE"),
-new stReguDomain("BH", "CE"),
-new stReguDomain("BY", "CE"),
-new stReguDomain("BE", "CE"),
-new stReguDomain("BA", "CE"),
-new stReguDomain("BR", "CE"),
-new stReguDomain("BN", "CE"),
-new stReguDomain("BG", "CE"),
-new stReguDomain("BO", "CE"),
-new stReguDomain("CA", "FCC"),
-new stReguDomain("CB", "CE"),
-new stReguDomain("CL", "CE"),
-new stReguDomain("CN", "CCC"),
-new stReguDomain("CO", "FCC"),
-new stReguDomain("CR", "CE"),
-new stReguDomain("HR", "CE"),
-new stReguDomain("CY", "CE"),
-new stReguDomain("CZ", "CE"),
-new stReguDomain("DK", "CE"),
-new stReguDomain("DO", "FCC"),
-new stReguDomain("EC", "FCC"),
-new stReguDomain("EG", "CE"),
-new stReguDomain("SV", "CE"),
-new stReguDomain("EE", "CE"),
-new stReguDomain("FK", "CE"),
-new stReguDomain("FI", "CE"),
-new stReguDomain("FR", "CE"),
-new stReguDomain("GE", "CE"),
-new stReguDomain("DE", "CE"),
-new stReguDomain("GR", "CE"),
-new stReguDomain("GT", "FCC"),
-new stReguDomain("HN", "CE"),
-new stReguDomain("HK", "FCC"),
-new stReguDomain("HU", "CE"),
-new stReguDomain("IS", "CE"),
-new stReguDomain("IN", "CE"),
-new stReguDomain("ID", "CE"),
-new stReguDomain("IR", "CE"),
-new stReguDomain("IE", "CE"),
-new stReguDomain("IL", "CE"),
-new stReguDomain("IT", "CE"),
-new stReguDomain("JM", "FCC"),
-new stReguDomain("JP", "MKK"),
-new stReguDomain("JO", "CE"),
-new stReguDomain("KZ", "CE"),
-new stReguDomain("KE", "CE"),
-new stReguDomain("KW", "CE"),
-new stReguDomain("LV", "CE"),
-new stReguDomain("LB", "CE"),
-new stReguDomain("LR", "CE"),
-new stReguDomain("LI", "CE"),
-new stReguDomain("LT", "CE"),
-new stReguDomain("LU", "CE"),
-new stReguDomain("MO", "CE"),
-new stReguDomain("MK", "CE"),
-new stReguDomain("MY", "CE"),
-new stReguDomain("MT", "CE"),
-new stReguDomain("MX", "FCC"),
-new stReguDomain("MC", "CE"),
-new stReguDomain("MA", "CE"),
-new stReguDomain("NP", "CE"),
-new stReguDomain("NL", "CE"),
-new stReguDomain("AN", "CE"),
-new stReguDomain("NZ", "CE"),
-new stReguDomain("NI", "CE"),
-new stReguDomain("NO", "CE"),
-new stReguDomain("OM", "CE"),
-new stReguDomain("PK", "CE"),
-new stReguDomain("PA", "FCC"),
-new stReguDomain("PG", "CE"),
-new stReguDomain("PY", "CE"),
-new stReguDomain("PE", "CE"),
-new stReguDomain("PH", "CE"),
-new stReguDomain("PL", "CE"),
-new stReguDomain("PT", "CE"),
-new stReguDomain("PR", "FCC"),
-new stReguDomain("QA", "CE"),
-new stReguDomain("RO", "CE"),
-new stReguDomain("RU", "CE"),
-new stReguDomain("SA", "CE"),
-new stReguDomain("SG", "CE"),
-new stReguDomain("SK", "CE"),
-new stReguDomain("SI", "CE"),
-new stReguDomain("ZA", "CE"),
-new stReguDomain("ES", "CE"),
-new stReguDomain("LK", "CE"),
-new stReguDomain("SE", "CE"),
-new stReguDomain("CH", "CE"),
-new stReguDomain("SY", "CE"),
-new stReguDomain("TW", "FCC"),
-new stReguDomain("TH", "CE"),
-new stReguDomain("TT", "CE"),
-new stReguDomain("TN", "CE"),
-new stReguDomain("TR", "CE"),
-new stReguDomain("UA", "CE"),
-new stReguDomain("AE", "CE"),
-new stReguDomain("GB", "CE"),
-new stReguDomain("US", "FCC"),
-new stReguDomain("UY", "CE"),
-new stReguDomain("VE", "CE"),
-new stReguDomain("VN", "CE"),
-new stReguDomain("ZW", "CE")
+    new stReguDomain("AL", "CE"),
+    new stReguDomain("DZ", "CE"),
+    new stReguDomain("AR", "CE"),
+    new stReguDomain("AU", "CE"),
+    new stReguDomain("AT", "CE"),
+    new stReguDomain("AZ", "CE"),
+    new stReguDomain("BH", "CE"),
+    new stReguDomain("BY", "CE"),
+    new stReguDomain("BE", "CE"),
+    new stReguDomain("BA", "CE"),
+    new stReguDomain("BR", "CE"),
+    new stReguDomain("BN", "CE"),
+    new stReguDomain("BG", "CE"),
+    new stReguDomain("BO", "CE"),
+    new stReguDomain("CA", "FCC"),
+    new stReguDomain("CB", "CE"),
+    new stReguDomain("CL", "CE"),
+    new stReguDomain("CN", "CCC"),
+    new stReguDomain("CO", "FCC"),
+    new stReguDomain("CR", "CE"),
+    new stReguDomain("HR", "CE"),
+    new stReguDomain("CY", "CE"),
+    new stReguDomain("CZ", "CE"),
+    new stReguDomain("DK", "CE"),
+    new stReguDomain("DO", "FCC"),
+    new stReguDomain("EC", "FCC"),
+    new stReguDomain("EG", "CE"),
+    new stReguDomain("SV", "CE"),
+    new stReguDomain("EE", "CE"),
+    new stReguDomain("FK", "CE"),
+    new stReguDomain("FI", "CE"),
+    new stReguDomain("FR", "CE"),
+    new stReguDomain("GE", "CE"),
+    new stReguDomain("DE", "CE"),
+    new stReguDomain("GR", "CE"),
+    new stReguDomain("GT", "FCC"),
+    new stReguDomain("HN", "CE"),
+    new stReguDomain("HK", "FCC"),
+    new stReguDomain("HU", "CE"),
+    new stReguDomain("IS", "CE"),
+    new stReguDomain("IN", "CE"),
+    new stReguDomain("ID", "CE"),
+    new stReguDomain("IR", "CE"),
+    new stReguDomain("IE", "CE"),
+    new stReguDomain("IL", "CE"),
+    new stReguDomain("IT", "CE"),
+    new stReguDomain("JM", "FCC"),
+    new stReguDomain("JP", "MKK"),
+    new stReguDomain("JO", "CE"),
+    new stReguDomain("KZ", "CE"),
+    new stReguDomain("KE", "CE"),
+    new stReguDomain("KW", "CE"),
+    new stReguDomain("LV", "CE"),
+    new stReguDomain("LB", "CE"),
+    new stReguDomain("LR", "CE"),
+    new stReguDomain("LI", "CE"),
+    new stReguDomain("LT", "CE"),
+    new stReguDomain("LU", "CE"),
+    new stReguDomain("MO", "CE"),
+    new stReguDomain("MK", "CE"),
+    new stReguDomain("MY", "CE"),
+    new stReguDomain("MT", "CE"),
+    new stReguDomain("MX", "FCC"),
+    new stReguDomain("MC", "CE"),
+    new stReguDomain("MA", "CE"),
+    new stReguDomain("NP", "CE"),
+    new stReguDomain("NL", "CE"),
+    new stReguDomain("AN", "CE"),
+    new stReguDomain("NZ", "CE"),
+    new stReguDomain("NI", "CE"),
+    new stReguDomain("NO", "CE"),
+    new stReguDomain("OM", "CE"),
+    new stReguDomain("PK", "CE"),
+    new stReguDomain("PA", "FCC"),
+    new stReguDomain("PG", "CE"),
+    new stReguDomain("PY", "CE"),
+    new stReguDomain("PE", "CE"),
+    new stReguDomain("PH", "CE"),
+    new stReguDomain("PL", "CE"),
+    new stReguDomain("PT", "CE"),
+    new stReguDomain("PR", "FCC"),
+    new stReguDomain("QA", "CE"),
+    new stReguDomain("RO", "CE"),
+    new stReguDomain("RU", "CE"),
+    new stReguDomain("SA", "CE"),
+    new stReguDomain("SG", "CE"),
+    new stReguDomain("SK", "CE"),
+    new stReguDomain("SI", "CE"),
+    new stReguDomain("ZA", "CE"),
+    new stReguDomain("ES", "CE"),
+    new stReguDomain("LK", "CE"),
+    new stReguDomain("SE", "CE"),
+    new stReguDomain("CH", "CE"),
+    new stReguDomain("SY", "CE"),
+    new stReguDomain("TW", "FCC"),
+    new stReguDomain("TH", "CE"),
+    new stReguDomain("TT", "CE"),
+    new stReguDomain("TN", "CE"),
+    new stReguDomain("TR", "CE"),
+    new stReguDomain("UA", "CE"),
+    new stReguDomain("AE", "CE"),
+    new stReguDomain("GB", "CE"),
+    new stReguDomain("US", "FCC"),
+    new stReguDomain("UY", "CE"),
+    new stReguDomain("VE", "CE"),
+    new stReguDomain("VN", "CE"),
+    new stReguDomain("ZW", "CE")
 );
 
 
-function isDfsArea(Country)
-{
-var ReguDomain = 0;
-for (i = 0; i &lt; TotalRegDomain.length; i++)
-{
-if (TotalRegDomain[i].CountryCode == Country)
-{
-ReguDomain = TotalRegDomain[i].RegCode;
-break;
-}
-}
-if ((ReguDomain != 'CE') &amp;&amp; (ReguDomain != 'FCC'))
-{
-return 0;
-}
-return 1;
+function isDfsArea(Country){
+    var ReguDomain = 0;
+    for(i=0; i &lt; TotalRegDomain.length; i++){
+        if (TotalRegDomain[i].CountryCode == Country){
+            ReguDomain = TotalRegDomain[i].RegCode;
+            break;
+        }
+    }
+
+    if ((ReguDomain != 'CE') &amp;&amp; (ReguDomain != 'FCC')){
+        return 0;
+    }
+    return 1;
 }
 
 function checkDfsChannels(Channel, ChannelPlus, ChannelWidth)
@@ -168,7 +161,7 @@ if ((52 &lt;= Channel) &amp;&amp; (144 &gt;= Channel))
 return true;
 }
 }
-return false;
+    return false;
 }
 
 function getChannelWithOutDfs(Channels, ChannelWidth)
@@ -1190,6 +1183,3 @@ function isValidAssoc(deviceNum)
         }
     }
 }
-
-
-</len;></body></html>

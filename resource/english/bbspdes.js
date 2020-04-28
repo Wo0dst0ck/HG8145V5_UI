@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0051)https://192.168.100.1/resource/english/bbspdes.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>var dos_language =
+var dos_language =
 {
 bbsp_dos_title:                'On this page, you can configure DoS parameters.',
 bbsp_dossynmh:'Prevent SYN Flood Attack:',
@@ -5126,6 +5124,3 @@ bbsp_macisinvalid_itvdf: '" is invalid. Enter a valid MAC address such as 00:11:
 bbsp_rulenum_itvdf: 'Cannot configure more than eight filter rules for one SSID.',
 bbsp_device_itvdf: 'New device'
 };
-
- 
-</body></html>

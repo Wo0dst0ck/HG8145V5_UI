@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0052)https://192.168.100.1/html/bbsp/common/wan_check.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>var DisliteFeature = "0";
+var DisliteFeature = "0";
 var selctIndex = -1;
 var MngtGdct = '0';
 var MultiWanIpFeature = '0';
@@ -1777,4 +1775,3 @@ function CheckRadioWan(Wan, EditFlag)
 
     return true;
 }
-</str.length;></body></html>

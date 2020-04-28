@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0056)https://192.168.100.1/html/bbsp/common/wan_pageparse.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>var LoginRequestLanguage = 'english';
+var LoginRequestLanguage = 'english';
 var IsPTVDFMode = '0';
 var RadioWanFeature = "0"; 
 var MobileBackupWanSwitch = '';
@@ -310,5 +308,3 @@ Wan.IPv4BindSsidList = SsidWanBindInfo.split(",");
 HWSetTableByLiIdList(WanConfigFormList,Wan, null);
     
 }
-
-</a.length;i++)></body></html>

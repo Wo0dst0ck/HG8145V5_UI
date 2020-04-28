@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0055)https://192.168.100.1/html/bbsp/common/wanipv6state.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>function IPv6AddressInfo(domain, IPAddressStatus, Origin,IPAddress,PreferredTime,
+function IPv6AddressInfo(domain, IPAddressStatus, Origin,IPAddress,PreferredTime,
                         ValidTime,ValidTimeRemaining)
 {
     this.WanInstanceId = domain.split(".")[4];
@@ -96,4 +94,3 @@ function GetIPv6WanInfo(WanInstanceId)
         }
     }    
 }
-</body></html>

@@ -1,4 +1,3 @@
-
 var TabWidth = "75%";
 
 function GetDescFormArrayById(Language,Name)

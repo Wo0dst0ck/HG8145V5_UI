@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0057)https://192.168.100.1/html/bbsp/common/wan_list.asp?17047 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>function PolicyRouteItem(_Domain, _Type, _VenderClassId, _WanName, _EtherType,_PhyPortName)
+function PolicyRouteItem(_Domain, _Type, _VenderClassId, _WanName, _EtherType,_PhyPortName)
 {
     this.Domain = _Domain;
     this.Type = _Type;
@@ -1591,5 +1589,3 @@ return true;
 
 return false;
 }
-
-</body></html>

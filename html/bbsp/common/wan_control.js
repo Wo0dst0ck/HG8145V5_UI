@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0054)https://192.168.100.1/html/bbsp/common/wan_control.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>var CurrentWan = null;
+var CurrentWan = null;
 var EditFlag = "";
 var ChangeUISource = "";
 var AddType     = 1;
@@ -3198,4 +3196,3 @@ else
 AddType = 1;
 }
 }
-</body></html>

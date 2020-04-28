@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0060)https://192.168.100.1/html/bbsp/common/wanaddressacquire.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>function IPAddressAcquireIPItem(_domain, _Alias, _Origin, _IPAddress, _ChildPrefixBits, _UnnumberredWanReserveAddress, _AddrMaskLen, _DefaultGateway)
+function IPAddressAcquireIPItem(_domain, _Alias, _Origin, _IPAddress, _ChildPrefixBits, _UnnumberredWanReserveAddress, _AddrMaskLen, _DefaultGateway)
 {
     this.domain = _domain;
     this.Alias = _Alias;
@@ -152,4 +150,4 @@ function GetIPv6PrefixAcquireInfo(domain)
         }
     }    
     return null;
-}</body></html>
+}

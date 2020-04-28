@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0051)https://192.168.100.1/html/bbsp/common/ontstate.asp -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>function OntStateInfo(domain,ONTID,Status)
+function OntStateInfo(domain,ONTID,Status)
 {
 this.domain = domain;
 this.OntId= ONTID;
@@ -127,4 +125,4 @@ function OnConnectionControlButtonE8cTjct(Control,RecordId,CtrFlag)
     Form.addParameter('x.X_HW_ConnectionControl',CtrFlag);
     Form.setAction('globeset.cgi?' +'x='+ GetWanList()[RecordId].domain + '&amp;RequestFile=twaninfowait.html');
     Form.submit();
-}</body></html>
+}

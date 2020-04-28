@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0062)https://192.168.100.1/html/bbsp/common/wan_list_info.asp?17047 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>var CfgModePCCWHK = "0";
+var CfgModePCCWHK = "0";
 var SupportIPv6 = "1";
 var supportTelmex = "0";
 var SetIdleDisconnectMode = "0";
@@ -1076,4 +1074,3 @@ CommonWanInfo.IPv4v6WanMVlanId = PPPWan.MultiVlanID;
     
     FillWanInfoForXD(CommonWanInfo);
 }
-</body></html>
